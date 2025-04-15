@@ -1,0 +1,44 @@
+###############################################################################
+# macOS
+###############################################################################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+
+# Thumbnails
+._*
+
+# macOS folder attributes
+.Spotlight-V100
+.Trashes
+
+###############################################################################
+# Windows
+###############################################################################
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows image file caches
+*.stackdump
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Explorer folder configuration
+Desktop.ini
+
+###############################################################################
+# Linux
+###############################################################################
+# Temporary files created by some editors/IDEs or file managers
+.fuse_hidden*
+.directory
+
+###############################################################################
+# End of OS-specific ignores
+###############################################################################
