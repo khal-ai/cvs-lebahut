@@ -33,6 +33,12 @@ header {
   margin-bottom: 2.5rem;
 }
 
+/* Profile page specific header */
+.profile-header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
 .main-title {
   font-size: 2.3rem;
   letter-spacing: 1.5px;
@@ -40,6 +46,11 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: title-glow 2s infinite alternate;
+}
+
+/* Profile page specific title margin */
+.profile-title {
+  margin-top: 1.2rem;
 }
 
 @keyframes title-glow {
@@ -98,6 +109,12 @@ header {
   animation: profile-pop 0.9s cubic-bezier(.4,0,.2,1);
 }
 
+/* Profile page specific image size */
+.profile-detail-img {
+  width: 140px;
+  height: 140px;
+}
+
 @keyframes profile-pop {
   from { opacity: 0; transform: scale(0.6); }
   to { opacity: 1; transform: scale(1); }
@@ -110,6 +127,106 @@ header {
   -webkit-text-fill-color: transparent;
   letter-spacing: 1px;
   font-weight: 700;
+}
+
+/* Back link */
+.back-link {
+  color: #00f2fe;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Social links container */
+.social-links {
+  margin: 2.2rem 0 1.2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
+/* Alternate margin for social links */
+.social-links-alt {
+  margin: 0.7em 0 0.7em 0;
+}
+
+/* Button styles */
+.btn {
+  padding: 0.7em 1.3em;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 2px 8px #00f2fe44;
+  transition: background 0.2s;
+}
+
+.btn-primary {
+  background: #4facfe;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #00f2fe;
+  color: #222;
+}
+
+.btn-tertiary {
+  background: #1a2980;
+  color: #fff;
+}
+
+/* Bio section */
+.bio-section {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.section-title {
+  color: #4facfe;
+  margin-bottom: 1.2rem;
+}
+
+.bio-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #e0eaff;
+  max-width: 600px;
+  margin: 0 auto 1.8rem auto;
+  text-align: justify;
+}
+
+/* Text alignment classes - these will override the default justify if needed */
+.text-left {
+  text-align: left;
+}
+
+/* List styles */
+.bio-list {
+  text-align: left;
+  margin: 1em auto 1.5em auto;
+  max-width: 500px;
+  color: #e0eaff;
+  font-size: 1.07em;
+}
+
+.skills-list {
+  display: inline-block;
+  text-align: left;
+  color: #e0eaff;
+  font-size: 1.07em;
+  margin: 0 auto 1.3em auto;
+  max-width: 360px;
+}
+
+/* Skills section */
+.skills-section {
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+/* Adjusted list margin */
+.bio-list-indented {
+  margin: 1em auto 1.5em 2em;
+  max-width: 600px;
 }
 
 @media (max-width: 600px) {
